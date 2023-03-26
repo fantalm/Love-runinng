@@ -263,6 +263,13 @@ footer{
         float: left;
         padding: 0;
     }
+    #times > div{
+        width:100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr{
         display:none;
 
@@ -270,7 +277,7 @@ footer{
 }
 
 /* For medium screen sizes from 950px and down */
-@media screen and(max-width: 950px){
+@media screen and (max-width: 950px) {
     #menu{
         clear: left;
         float: left;
